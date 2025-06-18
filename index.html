@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mitose - Divisão Celular</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <header>
+    <div class="header-content">
+      <h1>Mitose</h1>
+      <p>Processo de divisão celular</p>
+    </div>
+    <nav>
+      <button id="nav-cards" class="nav-btn active">Cards</button>
+      <button id="nav-credits" class="nav-btn">Créditos</button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="cards-section" class="active-section">
+      <div class="container">
+        <!-- Profase Card -->
+        <div class="scene">
+          <div class="card">
+            <div class="card-face card-front">
+              <img src="/Mitose/img/Profase Capa.jpg" alt="Profase front" />
+            </div>
+            <div class="card-face card-back">
+              <img src="/Mitose/img/Profase.jpg" alt="Profase back" />
+              <button class="info-btn" data-info="profase">Saiba Mais</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Metáfase Card -->
+        <div class="scene">
+          <div class="card">
+            <div class="card-face card-front">
+              <img src="/Mitose/img/Metafase Capa.jpg" alt="Metáfase front" />
+            </div>
+            <div class="card-face card-back">
+              <img src="/Mitose/img/Metafase.jpg" alt="Metáfase back" />
+              <button class="info-btn" data-info="metafase">
+                Saiba Mais
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Anáfase Card -->
+        <div class="scene">
+          <div class="card">
+            <div class="card-face card-front">
+              <img src="/Mitose/img/Anafase Capa.jpg" alt="Anáfase front" />
+            </div>
+            <div class="card-face card-back">
+              <img src="/Mitose/img/Anafase.jpg" alt="Anáfase back" />
+              <button class="info-btn" data-info="anafase">Saiba Mais</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Telofase Card -->
+        <div class="scene">
+          <div class="card">
+            <div class="card-face card-front">
+              <img src="/Mitose/img/Telofase Capa.jpg" alt="Telofase front" />
+              <h3>Telófase</h3>
+            </div>
+            <div class="card-face card-back">
+              <img src="/Mitose/img/Telofase.jpg" alt="Telofase back" />
+              <button class="info-btn" data-info="telofase">
+                Saiba Mais
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Prometafase Card -->
+        <div class="scene">
+          <div class="card">
+            <div class="card-face card-front">
+              <img src="/Mitose/img/Prometafase Capa.jpg" alt="Prometafase front" />
+            </div>
+            <div class="card-face card-back">
+              <img src="/Mitose/img/Prometafase.png" alt="Prometafase back" />
+              <button class="info-btn" data-info="prometafase">
+                Saiba Mais
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Citocinese Card -->
+        <div class="scene">
+          <div class="card">
+            <div class="card-face card-front">
+              <img src="/Mitose/img/Curiosidades Prometafase Capa.jpg" alt="Curiosidades Prometafase front" />
+            </div>
+            <div class="card-face card-back">
+                <img src="/Mitose/img/Curiosidades Prometafase.jpg" alt="Curiosidades Prometafase back" />
+                <button class="info-btn" data-info="citocinese">
+                  Saiba Mais
+                </button>
+              </div>
+          </div>
+        </div>
+
+        <!-- Importância da Mitose Card -->
+        <div class="scene">
+          <div class="card">
+            <div class="card-face card-front">
+              <img src="/Mitose/img/Importancia Mitose Capa.png" alt="Mitose front" />
+            </div>
+            <div class="card-face card-back">
+              <img src="/Mitose/img/Importancia Mitose.jpg" alt="Mitose back" />
+              <button class="info-btn" data-info="importancia">
+                Saiba Mais
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Mitose Card -->
+        <div class="scene">
+          <div class="card">
+            <div class="card-face card-front">
+              <img src="/Mitose/img/Mitose Capa.jpg" alt="Mitose front" />
+            </div>
+            <div class="card-face card-back">
+                <img src="/Mitose/img/Mitose.jpg" alt="Mitose back" />
+                <button class="info-btn" data-info="curiosidades">
+                  Saiba Mais
+                </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="credits-section">
+      <div class="credits-container">
+        <div class="credits-header">
+          <h2>Créditos</h2>
+          <p>
+            Agradecimentos especiais a todos que contribuíram para este
+            projeto incrível. Este trabalho foi desenvolvido com a colaboração
+            das turmas 2°A Mutimidia e 2°B Desenvolvimento de Sistema, unindo
+            esforços, ideias e dedicação para apresentar de forma clara e
+            educativa o processo da Mitose, um dos fenômenos mais importantes
+            da biologia celular.
+          </p>
+        </div>
+
+        <div class="team-grid">
+          <div class="team-card">
+            <div class="team-avatar">
+              <i class="fas fa-code"></i>
+            </div>
+            <h3>Lucas Augusto</h3>
+            <p>Desenvolvedor</p>
+          </div>
+
+          <div class="team-card">
+            <div class="team-avatar">
+              <i class="fas fa-code"></i>
+            </div>
+            <h3>João Victor</h3>
+            <p>Desenvolvedor</p>
+          </div>
+
+          <div class="team-card">
+            <div class="team-avatar">
+              <i class="fas fa-code"></i>
+            </div>
+            <h3>Renan Moretti</h3>
+            <p>Desenvolvedor</p>
+          </div>
+
+          <div class="team-card">
+            <div class="team-avatar">
+              <i class="fas fa-paint-brush"></i>
+            </div>
+            <h3>Gabriel De Lucca</h3>
+            <p>Designer</p>
+          </div>
+
+          <div class="team-card">
+            <div class="team-avatar">
+              <i class="fas fa-paint-brush"></i>
+            </div>
+            <h3>Mateus Sato</h3>
+            <p>Designer</p>
+          </div>
+
+          <div class="team-card">
+            <div class="team-avatar">
+              <i class="fas fa-paint-brush"></i>
+            </div>
+            <h3>Arthur Carneiro</h3>
+            <p>Designer</p>
+          </div>
+
+          <div class="team-card">
+            <div class="team-avatar">
+              <i class="fas fa-paint-brush"></i>
+            </div>
+            <h3>Gustavo Da Paz</h3>
+            <p>Designer</p>
+          </div>
+
+          <div class="team-card">
+            <div class="team-avatar">
+              <i class="fa-solid fa-user"></i>
+            </div>
+            <h3>Professor Marcelo</h3>
+            <p>Gerente de Projeto</p>
+          </div>
+
+          <div class="team-card">
+            <div class="team-avatar">
+              <i class="fa-solid fa-user"></i>
+            </div>
+            <h3>Professor Ricardo</h3>
+            <p>Gerente de Projeto</p>
+          </div>
+
+          <div class="team-card">
+            <div class="team-avatar">
+              <i class="fa-solid fa-user"></i>
+            </div>
+            <h3>Professor Dinele</h3>
+            <p>Gerente de Projeto</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <p>&copy; 2025 Projeto Mitose - Todos os direitos reservados</p>
+      <div class="logos">
+        <img src="/Mitose/img/logo-sesi.png" alt="Logo SESI" />
+        <img src="/Mitose/img/logo-senai.png" alt="Logo SENAI" />
+      </div>
+    </div>
+  </footer>
+
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <span class="close-btn">&times;</span>
+      <h2 id="modal-title">Título</h2>
+      <div id="modal-body">
+        <p>Conteúdo</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
